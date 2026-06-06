@@ -1,0 +1,64 @@
+@import 'tailwindcss';
+
+@theme {
+  --color-background: hsl(42 24% 97%);
+  --color-foreground: hsl(170 18% 12%);
+  --color-card: hsl(0 0% 100%);
+  --color-card-foreground: hsl(170 18% 12%);
+  --color-primary: hsl(154 48% 28%);
+  --color-primary-foreground: hsl(0 0% 100%);
+  --color-muted: hsl(42 18% 90%);
+  --color-muted-foreground: hsl(172 9% 38%);
+  --color-accent: hsl(42 28% 89%);
+  --color-accent-foreground: hsl(170 18% 12%);
+  --color-destructive: hsl(0 72% 44%);
+  --color-border: hsl(42 16% 82%);
+  --color-input: hsl(42 16% 82%);
+  --color-ring: hsl(154 48% 28%);
+}
+
+* {
+  border-color: theme(--color-border);
+}
+
+html {
+  background: theme(--color-background);
+}
+
+body {
+  min-width: 320px;
+  margin: 0;
+  font-family:
+    Inter,
+    ui-sans-serif,
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    sans-serif;
+  background: theme(--color-background);
+}
+
+a {
+  color: inherit;
+}
+
+.skip-link {
+  position: fixed;
+  top: 0.75rem;
+  left: 0.75rem;
+  z-index: 100;
+  transform: translateY(-150%);
+  border-radius: 0.375rem;
+  background: theme(--color-primary);
+  color: theme(--color-primary-foreground);
+  padding: 0.625rem 0.875rem;
+  font-weight: 600;
+  transition: transform 150ms ease;
+}
+
+.skip-link:focus {
+  transform: translateY(0);
+  outline: 2px solid theme(--color-ring);
+  outline-offset: 2px;
+}
