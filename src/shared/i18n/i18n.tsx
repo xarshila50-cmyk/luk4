@@ -7,7 +7,7 @@ const languages: Language[] = ['ge', 'en'];
 const defaultLanguage: Language = 'ge';
 
 const translations: Record<string, string> = {
-  'Free giving in Georgia': 'ამიკო კლეა საქართველოში',
+  'Free giving in Georgia': 'ამიკო საქართველოში',
   Home: 'მთავარი',
   Create: 'დამატება',
   Profile: 'პროფილი',
@@ -22,7 +22,7 @@ const translations: Record<string, string> = {
   'Skip to content': 'კონტენტზე გადასვლა',
   Language: 'ენა',
 
-  'Free items in Georgia': 'amiko klea',
+  'Free items in Georgia': 'ამიკო საქართველოში',
   'Find unwanted items people are giving away and help keep useful things out of waste.':
     'ადგილი, სადაც ამიკო მოიტყნებაj.',
   'Loading free items': 'უფასო ნივთები იტვირთება',
