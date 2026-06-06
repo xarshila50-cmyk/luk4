@@ -9,7 +9,7 @@ const defaultLanguage: Language = 'ge';
 const translations: Record<string, string> = {
   'Free giving in Georgia': 'ამიკო საქართველოში',
   Home: 'მთავარი',
-  Create: 'დამატება',
+  Create: 'დამატება...',
   Profile: 'პროფილი',
   Admin: 'ადმინი',
   Login: 'შესვლა',
