@@ -7,7 +7,7 @@ const languages: Language[] = ['ge', 'en'];
 const defaultLanguage: Language = 'ge';
 
 const translations: Record<string, string> = {
-  'Free giving in Georgia': 'ამიკო საქართველოში',
+  'Free giving in Georgia': 'რასაცა გასცემ შენია, რაც არა დაკარგულია',
   Home: 'მთავარი',
   Create: 'დამატება...',
   Profile: 'პროფილი',
@@ -22,9 +22,9 @@ const translations: Record<string, string> = {
   'Skip to content': 'კონტენტზე გადასვლა',
   Language: 'ენა',
 
-  'Free items in Georgia': 'ამიკო საქართველოში',
+  'Free items in Georgia': 'ნივთების გაცემა-გაჩუქება',
   'Find unwanted items people are giving away and help keep useful things out of waste.':
-    'ადგილი, სადაც ამიკო მოიტყნებაj.',
+    'არ გადააგდო, გააჩუქე! მიეცი ნივთებს მეორე სიცოცხლე და გაეცი ის, რაც აღარ გჭირდება, იპოვე ახალი მფლობელი ოდესღაც შენი საყვარელი ნივთისთვის.',
   'Loading free items': 'უფასო ნივთები იტვირთება',
   'Gaachuqe is loading the latest posts.':
     'Gaachuqe ახალ განცხადებებს ტვირთავს.',
@@ -42,7 +42,7 @@ const translations: Record<string, string> = {
   Filters: 'ფილტრები',
   Open: 'გახსნა',
   Close: 'დახურვა',
-  'Search, category, city, and status': 'ძიება, კატეგორია, ქალაქი და სტატუსი',
+  'Search, category, city, and status': 'ძიება, კატეგორიები, ადგილმდებარეობა და ნივთის სტატუსი',
   active: 'აქტიური',
   'Search free items': 'უფასო ნივთების ძიება',
   Category: 'კატეგორია',
@@ -90,7 +90,7 @@ const translations: Record<string, string> = {
   'Loading item': 'ნივთი იტვირთება',
   'Gaachuqe is loading item details.': 'Gaachuqe ნივთის დეტალებს ტვირთავს.',
   'Item not found': 'ნივთი ვერ მოიძებნა',
-  'This item could not be loaded.': 'ეს ნივთი ვერ ჩაიტვირთა.',
+  'This item could not be loaded.': 'ნივთი ვერ ჩაიტვირთა.',
   Back: 'უკან',
   Date: 'თარიღი',
   Expires: 'იწურება',
@@ -145,7 +145,7 @@ const translations: Record<string, string> = {
   'No account?': 'არ გაქვთ ანგარიში?',
   'Login failed.': 'შესვლა ვერ მოხერხდა.',
   'Create an account with your name, email, phone number, and password.':
-    'შექმენით ანგარიში სახელით, ელფოსტით, ტელეფონის ნომრით და პაროლით.',
+    'შექმენით ანგარიში',
   'Display name': 'სახელი',
   'Phone number': 'ტელეფონის ნომერი',
   'Create account': 'ანგარიშის შექმნა',
