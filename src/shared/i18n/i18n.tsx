@@ -24,7 +24,7 @@ const translations: Record<string, string> = {
 
   'Free items in Georgia': 'ნივთების გაცემა-გაჩუქება',
   'Find unwanted items people are giving away and help keep useful things out of waste.':
-    'არ გადააგდო, გააჩუქე! მიეცი ნივთებს მეორე სიცოცხლე და გაეცი ის, რაც აღარ გჭირდება, იპოვე ახალი მფლობელი ოდესღაც შენი საყვარელი ნივთისთვის.',
+    'ნუ გადააგდებ, გააჩუქე!',
   'Loading free items': 'უფასო ნივთები იტვირთება',
   'Gaachuqe is loading the latest posts.':
     'Gaachuqe ახალ განცხადებებს ტვირთავს.',
